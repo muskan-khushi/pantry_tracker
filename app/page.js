@@ -79,6 +79,11 @@ export default function Home() {
       justifyContent="center"
       alignItems="center"
       gap={2}
+      sx={{
+        backgroundImage: 'url(/bgimage.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
       <Modal
         open={open}
@@ -131,11 +136,11 @@ export default function Home() {
       >
         Add New Item
       </Button>
-      <Box border='1px solid #333'>
+      <Box border='2px solid #333'>
         <Box
           width="800px"
           height="100px"
-          backgroundColor="#ADD8E6"
+          backgroundColor="#64c0fa"
           display="flex"
           alignItems="center"
           justifyContent="center"
